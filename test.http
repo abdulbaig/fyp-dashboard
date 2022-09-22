@@ -1,0 +1,17 @@
+POST https://fyp-2022.herokuapp.com/api/auth/login
+Content-Type: application/json
+
+{
+    "username":"Baigfff",
+    "password": "1234567"
+}
+###
+POST  https://fyp-2022.herokuapp.com/api/markets
+Content-Type: application/json
+
+{
+    "name":"name",
+    "type":"graveyard",
+    "location":"location",
+    "phone":234324234
+}
