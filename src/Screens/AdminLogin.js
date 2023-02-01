@@ -130,6 +130,7 @@ const AdminLogin = () => {
         <div className='login-button-holder'  onSubmit={formik.handleSubmit}>
         
         <Button
+                type="button"
                 width='250px'
                 height='40px'
                 backgroundColor='#02a95c'

@@ -77,9 +77,9 @@ export default function StickyHeadTable() {
   });
 
   return (
-    
-    <TableContainer style={{ marginTop: "5%" }} component={Paper}>
-      <Table sx={{ minWidth: 700 }} aria-label="customized table">
+    <div style={{backgroundColor: "#E6E6E9"}}>
+    <TableContainer style={{ marginTop: "2%" }} component={Paper}>
+      <Table sx={{ minWidth: 600 }} aria-label="customized table">
         <TableHead>
           <TableRow>
             <StyledTableCell>Name</StyledTableCell>
@@ -101,7 +101,15 @@ export default function StickyHeadTable() {
 
               <StyledTableCell>
                 <button
-                  style={{ marginLeft: "-11%" }}
+                  className="button-style-primary"
+                  style={{
+                    minWidth: "70px",
+    backgroundColor: "#008CBA",
+    border: "#008CBA",
+    padding: "7px 10px 7px 10px",
+    color: "#FFFFFF",
+    borderRadius: "5px"
+                  }}
                   onClick={() => {
                     axios
                       .delete(
@@ -115,11 +123,13 @@ export default function StickyHeadTable() {
                   {" "}
                   Delete Market{" "}
                 </button>
+                
               </StyledTableCell>
             </StyledTableRow>
           ))}
         </TableBody>
       </Table>
     </TableContainer>
+    </div>
   );
 }

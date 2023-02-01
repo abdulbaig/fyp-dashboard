@@ -1,0 +1,95 @@
+.dashboard-container{
+    /* background-color: green !important; */
+    width: 95%;
+    height: 100% !important;
+    min-height: 400px;
+    margin-left: 2%;
+    margin-top: 2%;
+    display: flex;
+}
+
+.dashboard-funds{
+    width: 30%;
+    background-color: #FFFFFF;
+    height: 366px !important;
+    margin-top: 5px;
+    margin-left: 25px;
+    border-radius: 20px;
+    box-shadow: inset 10px;
+}
+
+.till-now{
+    text-align: start;
+    padding-left: 10px;
+}
+
+.wc-j-funds{
+    width: 32%;
+    height: 366px !important;
+    margin-top: 5px;
+    margin-left: 25px;
+    border-radius: 20px;
+    box-shadow: inset 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.dashboard-wcfunds{
+    background-color: white;
+    height: 175px !important;
+    border-radius: 20px;
+    box-shadow: inset 10px;
+}
+
+.dashboard-jfunds{
+    background-color: white;
+    height: 175px !important;
+    margin-top: 25px;
+    border-radius: 20px;
+    box-shadow: inset 10px;
+}
+
+.top-fundraisers{
+    width: 30%;
+    background-color: #FFFFFF;
+    height: 366px !important;
+    margin-top: 5px;
+    margin-left: 25px;
+    border-radius: 20px;
+    box-shadow: inset 10px;
+}
+
+.fundraisers{
+    max-width: 80%;
+    position: relative;
+    max-height: 250px;
+    margin-top: -5%;
+    padding-bottom: 5%;
+    text-align: start;
+    margin-left: 11%;
+}
+
+.fundraiser-hover:hover{
+    background-color:#02a95c !important;
+    color:#FFFFFF !important;
+}
+
+.fundraiser-container{
+    overflow-y: scroll;
+
+}
+
+.top-fundraisers::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 5px;
+  }
+
+  .top-fundraisers::-webkit-scrollbar-thumb:hover {
+    background: #1976D2; 
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  

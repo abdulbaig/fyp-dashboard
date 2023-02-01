@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #E6E6E9 !important;
 }
 
 code {
@@ -14,8 +15,8 @@ code {
 
 .MuiTabs-root{
   height: 100vh !important;
-  width: 40vw !important;
-  
+  width: 25vw !important;
+ 
 }
 
 .Panels{
@@ -28,6 +29,38 @@ code {
   margin-right: 0% !important;
 }
 
+.MuiTabs-scroller{
+  position: fixed !important;
+  width: 18vw !important;
+  margin-top: 9.5%;
+}
+
+.css-1cgx7kx-MuiTabs-scroller
+
 .tab1{
-  margin-top: 20% !important;
+  margin-top: 0% !important;
+}
+
+.MuiBox-root{
+  height: 0px !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
 }
